@@ -56,7 +56,7 @@ function removeItem(e){
     }
 }
 
-//Filter items
+//Filter items//
 function filterItems(e){
     // convert text to lowercase
     var text = e.target.value.toLowerCase();
