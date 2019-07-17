@@ -20,7 +20,7 @@
 
 function julyBbq(arr,list){
 	const obj = {};
-    arr.forEach((item,i) => obj[item] = list[i]);
+    arr.map((item,i) => obj[item] = list[i]); //also can bes used with `forEach` method but `map` is faster
     return obj
 }
 
