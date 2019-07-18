@@ -74,16 +74,16 @@ function filterItems(e){
     })
 }
 
-//Future task: built a local storage to save the items in the browser
+//Future task: build a local storage to save the items in the browser
 
-const inputItem = document.getElementById('item');
-const btnSubmit = document.getElementsByClassName('btn btn-dark');
+// const inputItem = document.getElementById('item');
+// const btnSubmit = document.getElementsByClassName('btn btn-dark');
 
 
-btnSubmit.onclick = function (){
-    const key = inputItem.value;
-    if (key) {
-        localStorage.setItem(key);
-        location.reload();
-    }
-}
+// btnSubmit.onclick = function (){
+//     const key = inputItem.value;
+//     if (key) {
+//         localStorage.setItem(key);
+//         location.reload();
+//     }
+// }
